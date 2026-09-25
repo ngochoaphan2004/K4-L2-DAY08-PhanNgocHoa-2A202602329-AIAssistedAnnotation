@@ -1,0 +1,7 @@
+round,frame_id,object,action,rule_or_reason
+1,frame_0099.jpg,xe tối màu làn đối diện phía xa bên trái,added,AI bỏ sót do xe tối màu và ở xa; bổ sung box bao trọn thân xe theo GUIDELINE_LABEL.md
+1,frame_0312.jpg,box khổng lồ bao trùm nhiều xe và vệt sáng làn đường bên phải,deleted,Xóa box giả do AI gộp nhiều xe và vùng chói sáng mặt đường theo GUIDELINE_LABEL.md
+1,frame_0107.jpg,xe đi trước trong cụm hai xe sát nhau ở làn giữa,edited,Thu hẹp cạnh phải box để không lấn sang xe bên cạnh theo quy tắc hai xe sát nhau vẽ riêng
+1,frame_0369.jpg,xe đi cùng chiều ở góc dưới bên phải bị cắt ở mép ảnh,added,AI chỉ nhận diện cụm đèn; thêm box bao trọn phần thân xe nằm trong ảnh sát mép dưới theo quy tắc xe bị cắt ở mép ảnh
+1,frame_0392.jpg,xe màu sáng ở làn phải đi phía trước,edited,Kéo rộng box về phía sau để ôm trọn đuôi xe thay vì chỉ khoanh một phần đầu xe theo GUIDELINE_LABEL.md
+1,frame_0099.jpg,xe con màu sáng đi làn giữa phía trước,accepted,Box AI đề xuất chính xác ôm sát thân xe và đèn; giữ nguyên theo quy tắc
