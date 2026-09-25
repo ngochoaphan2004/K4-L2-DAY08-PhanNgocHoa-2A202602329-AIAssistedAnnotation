@@ -85,3 +85,4 @@ có luật bỏ qua xe quá nhỏ và nhãn tham chiếu do mô hình tạo chư
 - **Đề xuất 2 ca vòng sau:** `frame_0270.jpg` ($t=108.0s$, 35 box, bổ sung xe tải) và `frame_0187.jpg` ($t=74.8s$, 39 box, khúc cua). Cả hai đều đông xe nên tốn công rà; frame 187 cách frame 182 (vòng 1) chỉ 2.0s nên có nguy cơ trùng lặp cảnh, cần giãn cách.
 - **Giới hạn:** Tập test nhỏ (20 ảnh, 403 box), bỏ qua xe $<16px$ và nhãn tham chiếu do AI tạo chưa kiểm định thủ công khiến số đo chỉ mang tính tương đối.
 - **Kiểm tra khi AP50 giảm:** Kiểm tra định dạng nhãn đã pack, kiểm tra learning rate và số epoch, kiểm tra độ lệch phân bố giữa 12 ảnh train và 20 ảnh test.
+
